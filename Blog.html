@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="Blog.css">
+    <title>Blog</title>
+</head>
+
+<body>
+
+    <main>
+
+        <section class="Blog">
+
+            <nav class="navbar">
+                <div class="container-fluid px-xl-0">
+
+                    <a class="navbar-brand" href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="21"
+                            height="25" viewBox="0 0 21 25" fill="none">
+                            <path
+                                d="M17.3757 6.62687C15.857 6.62687 14.4679 7.48515 13.7888 8.84344L11.9185 12.5854L5.95996 24.5025H9.43989C10.9586 24.5025 12.3476 23.6442 13.0268 22.2859L20.8556 6.62687H17.3757Z"
+                                fill="#121212" />
+                            <path
+                                d="M0 0.666992L5.95853 12.584H11.9171L7.06681 2.88356C6.38767 1.52528 4.99864 0.666992 3.47993 0.666992H0Z"
+                                fill="#ED4D55" />
+                        </svg>allabook</a>
+
+
+                    <div class="nav-between d-xl-flex d-none">
+                        <ul class="d-flex text-white">
+                            <li><a class="nav-link link-1" href="package.html">Packages</a></li>
+                            <li> <a class="nav-link link-2" href="Blog.html">Yalla guide</a></li>
+                            <li> <a class="nav-link link-3" href="#">About us</a></li>
+
+                        </ul>
+                    </div>
+
+                    <div class="nav-end">
+
+                        <ul class="d-flex">
+
+                            <li><a class=" me-1 nav-link text-black link-4 d-xl-flex d-none
+                                " href="#">countries</a></li>
+
+
+                            <li class="flag"><a class="nav-link" href="#"><svg width="24" height="24"
+                                        viewBox="0 0 64 64">
+                                        <g transform="translate(64 0) scale(-1 1)">
+                                            <path fill="#2a5f9e"
+                                                d="M22 60.3V46.5l-10.3 7.6c2.9 2.7 6.4 4.8 10.3 6.2m20 0c3.9-1.4 7.4-3.5 10.3-6.2L42 46.4v13.9M3.7 42c.3 1 .7 1.9 1.2 2.9L8.8 42H3.7m51.5 0l3.9 2.9c.4-.9.8-1.9 1.2-2.9h-5.1" />
+                                            <path fill="#fff"
+                                                d="M23.5 38H2.6c.3 1.4.7 2.7 1.1 4h5.1l-3.9 2.9c.8 1.7 1.7 3.2 2.8 4.7L18 42h4v2l-11.7 8.6l1.4 1.4L22 46.5v13.8c1.3.5 2.6.8 4 1.1V38h-2.5m37.9 0H38v23.4c1.4-.3 2.7-.7 4-1.1V46.5L52.3 54c1.4-1.3 2.6-2.7 3.8-4.2L45.4 42h6.8l6.1 4.5c.3-.5.6-1.1.8-1.6L55.2 42h5.1c.4-1.3.8-2.6 1.1-4" />
+                                            <path fill="#ed4c5c"
+                                                d="M7.7 49.6c.8 1.1 1.6 2.1 2.5 3.1L22 44.1v-2h-4L7.7 49.6M45.5 42l10.7 7.8c.4-.5.7-1 1.1-1.5c.1-.1.1-.2.2-.2c.3-.5.7-1.1 1-1.6L52.2 42h-6.7" />
+                                            <path fill="#2a5f9e"
+                                                d="M42 3.7v13.8l10.3-7.6C49.4 7.2 45.9 5.1 42 3.7m-20 0c-3.9 1.4-7.4 3.5-10.3 6.2L22 17.6V3.7M60.3 22c-.3-1-.7-1.9-1.2-2.9L55.2 22h5.1M8.8 22l-3.9-2.9c-.4 1-.8 1.9-1.2 2.9h5.1" />
+                                            <path fill="#fff"
+                                                d="M40.5 26h20.8c-.3-1.4-.7-2.7-1.1-4h-5.1l3.9-2.9c-.8-1.7-1.7-3.2-2.8-4.7L46 22h-4v-2l11.7-8.6l-1.4-1.4L42 17.5V3.7c-1.3-.5-2.6-.8-4-1.1V26h2.5M2.6 26H26V2.6c-1.4.3-2.7.7-4 1.1v13.8L11.7 10c-1.4 1.3-2.6 2.7-3.8 4.2L18.6 22h-6.8l-6.1-4.5c-.3.5-.6 1.1-.8 1.6L8.8 22H3.7c-.4 1.3-.8 2.6-1.1 4" />
+                                            <g fill="#ed4c5c">
+                                                <path
+                                                    d="M56.3 14.4c-.8-1.1-1.6-2.1-2.5-3.1L42 19.9v2h4l10.3-7.5M18.5 22L7.9 14.2c-.4.5-.7 1-1.1 1.5c-.1.1-.1.2-.2.2c-.3.5-.7 1.1-1 1.6l6.1 4.5h6.8" />
+                                                <path
+                                                    d="M61.4 26H38V2.6c-1.9-.4-3.9-.6-6-.6s-4.1.2-6 .6V26H2.6c-.4 1.9-.6 3.9-.6 6s.2 4.1.6 6H26v23.4c1.9.4 3.9.6 6 .6s4.1-.2 6-.6V38h23.4c.4-1.9.6-3.9.6-6s-.2-4.1-.6-6" />
+                                            </g>
+                                        </g>
+                                    </svg></a>
+
+                                </a>
+
+                            </li>
+
+
+
+                            <li class="language"> <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                                        width="20" height="21" viewBox="0 0 20 21" fill="none">
+                                        <g clip-path="url(#clip0_2103_2220)">
+                                            <path
+                                                d="M13.825 7.65833L10 11.475L6.175 7.65833L5 8.83333L10 13.8333L15 8.83333L13.825 7.65833Z"
+                                                fill="black" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_2103_2220">
+                                                <rect width="20" height="20" fill="white"
+                                                    transform="translate(0 0.5)" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </a></li>
+
+
+                            <li class="search"><a class="nav-link" href="#"><svg width="24" height="24"
+                                        viewBox="0 0 24 24">
+                                        <path fill="currentColor"
+                                            d="M20.031 20.79c.46.46 1.17-.25.71-.7l-3.75-3.76a7.904 7.904 0 0 0 2.04-5.31c0-4.39-3.57-7.96-7.96-7.96s-7.96 3.57-7.96 7.96c0 4.39 3.57 7.96 7.96 7.96c1.98 0 3.81-.73 5.21-1.94l3.75 3.75zM4.11 11.02c0-3.84 3.13-6.96 6.96-6.96c3.84 0 6.96 3.12 6.96 6.96s-3.12 6.96-6.96 6.96c-3.83 0-6.96-3.12-6.96-6.96z" />
+                                    </svg></a></a></li>
+
+                            <button class="navbar-toggler d-xl-none d-flex border-0" type="button"
+                                data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                                aria-controls="offcanvasNavbar" aria-label="Toggle navigation" width="24px"
+                                height="24px">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M20.5 7H3.5C3.22386 7 3 6.77614 3 6.5V5.5C3 5.22386 3.22386 5 3.5 5H20.5C20.7761 5 21 5.22386 21 5.5V6.5C21 6.77614 20.7761 7 20.5 7ZM21 12.5V11.5C21 11.2239 20.7761 11 20.5 11H3.5C3.22386 11 3 11.2239 3 11.5V12.5C3 12.7761 3.22386 13 3.5 13H20.5C20.7761 13 21 12.7761 21 12.5ZM21 17.5V18.5C21 18.7761 20.7761 19 20.5 19H3.5C3.22386 19 3 18.7761 3 18.5V17.5C3 17.2239 3.22386 17 3.5 17H20.5C20.7761 17 21 17.2239 21 17.5Z"
+                                        fill="white" />
+                                </svg>
+                            </button>
+
+
+
+                        </ul>
+
+                    </div>
+
+
+
+
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="package.html">Packages</a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a class="nav-link active" href="Blog.html">Yalla guide</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#">About us</a>
+
+                                </li>
+
+
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="container px-xl-0 text-center artical">
+
+
+
+                <h1>
+                    Blog and Article
+                </h1>
+
+                <p>Find the latest articles related to travel</p>
+
+                <div class="all-question">
+
+                    <div class="question d-flex">
+
+                        <div class="search-question d-flex">
+
+                            <img src="image.yalla/Search.svg" alt="">
+
+                            <p>Search for a questions</p>
+
+                            <button type="button" class="btn text-white bg-danger">Search</button>
+
+
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="blog-1 d-flex">
+
+                    <div class="top-8">
+
+                        <div class="text-top-8 text-start">
+
+                            <span>Nov 14, 2022</span>
+
+                            <h3>Best Digital Nomad Hostels in the
+                                World: Top 8 for Working Travellers</h3>
+
+                            <p>
+                                Yeah, yeah, we all know the reputation hostels have as party
+                                meccas for rowdy, broke wayfarers on a world tour. You know,
+                                people FAR from the reality of having a full-time job...
+                            </p>
+
+                            <button type="button" class="btn bg-danger text-white">Read articles</button>
+
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+            </div>
+
+
+        </section>
+
+
+        <section class="how-travel">
+
+            <div class="container px-xl-0">
+                <div class="row px-0 mousce-1">
+                    <div class="col-xl-4 col-12 nov-13">
+                        <div class="card">
+                            <img src="image.yalla/mousc-1.png" class="card-img-top" alt="#">
+                            <div class="card-mousce text-start">
+                                <span class="card-title">Nov 13, 2022</span>
+                                <h3 class="card-text">How to Travel FOR FREE: No <br>
+                                    Money, No Problems!</h3>
+                                <p>The ultimate backpacker thesis on how to <br> travel the world with no cash. Yap, you
+                                    <br> read that right…
+                                </p>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="col-xl-4 col-12 nov-13">
+                        <div class="card">
+                            <img src="image.yalla/mousc-2.png" class="card-img-top" alt="#">
+                            <div class="card-mousce text-start">
+                                <span class="card-title">Nov 08, 2022</span>
+                                <h3 class="card-text">How to Travel FOR FREE: No <br>
+                                    Money, No Problems!</h3>
+                                <p>Ipsum dolor sit amet consectetur. Ut sed <br>
+                                    diam ullamcorper magna vulputate libero <br>
+                                    mattis.</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="col-xl-4 col-12 nov-13">
+                        <div class="card">
+                            <img src="image.yalla/mousc-3.png" class="card-img-top" alt="#">
+                            <div class="card-mousce text-start">
+                                <span class="card-title">Oct 29, 2022</span>
+                                <h3 class="card-text">How to Travel FOR FREE: No <br>
+                                    Money, No Problems!</h3>
+                                <p>Ipsum dolor sit amet consectetur. Ut sed <br>
+                                    diam ullamcorper magna vulputate libero <br>
+                                    mattis.</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+
+                <div class="row px-0 mousce-2">
+                    <div class="col-xl-4 col-12 oct-29">
+                        <div class="card">
+                            <img src="image.yalla/mousc-4.png" class="card-img-top" alt="#">
+                            <div class="card-mousce text-start">
+                                <span class="card-title">Nov 13, 2022</span>
+                                <h3 class="card-text">How to Travel FOR FREE: No <br>
+                                    Money, No Problems!</h3>
+                                <p>Ipsum dolor sit amet consectetur. Ut sed <br>
+                                    diam ullamcorper magna vulputate libero <br>
+                                    mattis.</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="col-xl-4 col-12 oct-29">
+                        <div class="card">
+                            <img src="image.yalla/mousc-5.png" class="card-img-top" alt="#">
+                            <div class="card-mousce text-start">
+                                <span class="card-title">Nov 08, 2022</span>
+                                <h3 class="card-text">How to Travel FOR FREE: No <br>
+                                    Money, No Problems!</h3>
+                                <p>Ipsum dolor sit amet consectetur. Ut sed <br>
+                                    diam ullamcorper magna vulputate libero <br>
+                                    mattis.</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="col-xl-4 col-12 oct-29">
+                        <div class="card">
+                            <img src="image.yalla/mousc-6.png" class="card-img-top" alt="#">
+                            <div class="card-mousce text-start">
+                                <span class="card-title">Oct 29, 2022</span>
+                                <h3 class="card-text">How to Travel FOR FREE: No <br>
+                                    Money, No Problems!</h3>
+                                <p>Ipsum dolor sit amet consectetur. Ut sed <br>
+                                    diam ullamcorper magna vulputate libero <br>
+                                    mattis.</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+                <div class="btn-how-travel">
+
+                    <button type="button" class="btn bg-danger text-white">Load more</button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
