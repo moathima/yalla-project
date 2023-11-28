@@ -8,6 +8,10 @@
 }
 
 
+.navbar-brand:hover{
+    color: white;
+}
+
 
 
 
@@ -1007,9 +1011,9 @@ nav-end .flag{
     margin-top: 20px;
 }
 
-.navbar-brand{
+ .navbar-brand{
     margin-top: 20px;
-}
+} 
 
 
 .main-1 .container{

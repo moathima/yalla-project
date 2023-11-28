@@ -12,6 +12,10 @@
     background-size: cover;
 }
 
+.navbar-brand:hover{
+    color: var(--neutral-0-white, #FFF);
+}
+
 
 
 .nav-between li a{
@@ -2056,6 +2060,7 @@ line-height: 140%; /* 25.2px */
         margin-top: 20px;
     }
 
+  
 
 
 
