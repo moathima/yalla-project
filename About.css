@@ -80,6 +80,10 @@ line-height: 140%; /* 25.2px */
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 375px) { 
 
+  .container-fluid {
+    margin: 0px 10px;
+   
+  }
 
 
   .history{
@@ -131,7 +135,7 @@ padding: 0px;
 .text-history p{
   color: var(--neutral-100, #E5E5E6);
 text-align: center;
-width: 334px;
+
 margin-top: 24px;
 margin-bottom: 171px;
 padding: 0px 20px;
@@ -159,7 +163,7 @@ line-height: 140%; /* 67.2px */
 .text-our p{
   color: var(--text-secondary-text, #808080);
 text-align: center;
-width: 335px;
+
 margin-top: 24px;
 padding: 0px 20px;
 /* Font Website/Body 1/Regular */
@@ -208,7 +212,7 @@ line-height: 140%; /* 67.2px */
   color: var(--text-secondary-text,#676879 );
 text-align: center;
 margin-top: 24px;
-width: 335px;
+
 padding: 0px 20px;
 /* Font Website/Body 1/Regular */
 font-family: "Inter";
