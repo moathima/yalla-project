@@ -134,7 +134,7 @@ text-align: center;
 width: 334px;
 margin-top: 24px;
 margin-bottom: 171px;
-padding: 0px;
+padding: 0px 20px;
 /* Font Website/H2/Regular */
 font-family: "Inter";
 font-size: 16px;
@@ -161,6 +161,7 @@ line-height: 140%; /* 67.2px */
 text-align: center;
 width: 335px;
 margin-top: 24px;
+padding: 0px 20px;
 /* Font Website/Body 1/Regular */
 font-family: "Inter";
 font-size: 16px;
@@ -208,6 +209,7 @@ line-height: 140%; /* 67.2px */
 text-align: center;
 margin-top: 24px;
 width: 335px;
+padding: 0px 20px;
 /* Font Website/Body 1/Regular */
 font-family: "Inter";
 font-size: 16px;
@@ -264,6 +266,7 @@ line-height: 140%; /* 67.2px */
 text-align: center;
 margin-top: 24px;
 width: 335px;
+padding: 0px 20px;
 /* Font Website/Body 1/Regular */
 font-family: "Inter";
 font-size: 16px;

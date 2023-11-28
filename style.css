@@ -281,6 +281,10 @@ line-height: normal;
         flex-flow: column;
         justify-content: end;
     }
+
+    .reel a{
+        text-decoration: none;
+    }
     
     .text-reel{
         margin: 22px 24px;
@@ -1269,6 +1273,10 @@ padding: 0px;
     display: flex;
     flex-flow: column;
     justify-content: end;
+}
+
+.reel a{
+    text-decoration: none;
 }
 
 .text-reel{
@@ -2282,6 +2290,10 @@ padding: 0px;
     display: flex;
     flex-flow: column;
     justify-content: end;
+}
+
+.reel a{
+    text-decoration: none;
 }
 
 .text-reel{
