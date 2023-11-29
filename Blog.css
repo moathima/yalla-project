@@ -128,7 +128,7 @@ margin-bottom: 0px;
   justify-content: space-between;
 align-items: center;
 
-padding-left: 8px;
+
 
 }
 
@@ -160,7 +160,7 @@ line-height: 140%; /* 28px */
 .btn-img-search .btn{
 border-radius: 20px;
 padding: 8px 16px;
-
+margin-left: 10px;
 /* Font Website/Body 1/Regular */
 font-family: "Inter";
 font-size: 14px;
