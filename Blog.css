@@ -471,7 +471,7 @@ line-height: 140%; /* 67.2px */
 
 .guide-1{
   background: url(image.yalla/guide-1.png);
-  width: 100%;
+  width: auto;
 height: 370px;
 flex-shrink: 0;
 background-repeat: no-repeat;
@@ -481,7 +481,7 @@ background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 59.37%, rgba(0, 0, 0, 0.
 
 .guide-2{
   background: url(image.yalla/guide-2.png);
-  width: 100%;
+  width: auto;
 height: 370px;
 flex-shrink: 0;
 background-repeat: no-repeat;
@@ -491,7 +491,7 @@ background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 59.37%, rgba(0, 0, 0, 0.
 
 .guide-3{
   background: url(image.yalla/guide-3.png);
-  width: 100%;
+  width: auto;
 height: 370px;
 flex-shrink: 0;
 background-repeat: no-repeat;
