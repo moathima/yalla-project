@@ -284,13 +284,13 @@ margin-bottom: 24px;
 }
 
 .how-travel .mousce-1{
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin: 0px auto;
 }
 
 
 .nov-13{
-  width: 334px;
+  width: 100%;
 
 flex-shrink: 0;
 border-radius: 16px;
@@ -303,7 +303,7 @@ border-radius: 16px;
 }
 
 .nov-13 .card{
-  width: 334px;
+  width: 100%;
   border-radius: 0px 0px 16px 16px;
 background: var(--neutral-0-white, #FFF);
 box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.04);
@@ -353,7 +353,7 @@ margin-bottom: 0px;
 
   
 .how-travel .mousce-2{
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin: 24px auto;
   margin-bottom: 0px;
 
@@ -361,7 +361,7 @@ margin-bottom: 0px;
 
 
 .oct-29{
-  width: 334px;
+  width: 100%;
 
 flex-shrink: 0;
 border-radius: 16px;
@@ -374,7 +374,7 @@ border-radius: 16px;
 }
 
 .oct-29 .card{
-  width: 334px;
+  width: 100%;
   border-radius: 0px 0px 16px 16px;
 background: var(--neutral-0-white, #FFF);
 box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.04);
@@ -463,7 +463,7 @@ line-height: 140%; /* 67.2px */
 }
 
 .traveller .row{
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin: 32px auto;
   margin-bottom: 0px;
 }
@@ -471,7 +471,7 @@ line-height: 140%; /* 67.2px */
 
 .guide-1{
   background: url(image.yalla/guide-1.png);
-  width: 334px;
+  width: 100%;
 height: 370px;
 flex-shrink: 0;
 background-repeat: no-repeat;
@@ -481,7 +481,7 @@ background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 59.37%, rgba(0, 0, 0, 0.
 
 .guide-2{
   background: url(image.yalla/guide-2.png);
-  width: 334px;
+  width: 100%;
 height: 370px;
 flex-shrink: 0;
 background-repeat: no-repeat;
@@ -491,7 +491,7 @@ background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 59.37%, rgba(0, 0, 0, 0.
 
 .guide-3{
   background: url(image.yalla/guide-3.png);
-  width: 334px;
+  width: 100%;
 height: 370px;
 flex-shrink: 0;
 background-repeat: no-repeat;
@@ -702,7 +702,7 @@ line-height: 140%; /* 28px */
 }
 
 .iicon{
-  margin-left: 77px;
+  align-items: center;
   
 }
 
