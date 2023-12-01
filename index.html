@@ -12,7 +12,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="package.css">
+
 
 
     <title>Homepage</title>
@@ -26,30 +26,32 @@
 
         <section class=" sec-1">
 
-            <nav class="navbar">
-                <div class="container-fluid px-0">
+            <nav class="navbar p-0">
+                <div class="container-fluid p-0">
 
-                    <a class="navbar-brand" href="#"><img src="image.yalla/Group 1000004515.svg" alt="">allabook</a>
+                    <a class="navbar-brand" href="index.html">
 
+                        <span>
+                            <img src="image.yalla/Group 1000004515.svg" alt="">allabook
+                        </span>
+                    </a>
 
-                    <div class="nav-between d-xl-flex d-none">
+                    <div class="nav-between d-xl-flex d-none d-md-flex">
                         <ul class="d-flex text-white">
                             <li><a class="nav-link link-1" href="package.html">Packages</a></li>
-                            <li> <a class="nav-link link-2" href="Blog.html">Yalla guide</a></li>
+                            <li> <a class="nav-link link-2 " href="Blog.html">Yalla guide</a></li>
                             <li> <a class="nav-link link-3" href="About.html">About us</a></li>
 
                         </ul>
                     </div>
 
-                    <div class="nav-end">
+                    <div class="nav-end d-flex">
 
-                        <ul class="d-flex">
+                        <ul class="d-flex px-0">
 
-                            <li><a class=" me-1 nav-link text-white link-4 d-xl-flex d-none
-                                " href="#">countries</a></li>
+                            <li><a href="#" class="d-xl-flex d-none d-md-flex text-white nav-link">Countries</a></li>
 
-
-                            <li class="flag"><a class="nav-link" href="#"><svg width="24" height="24"
+                            <li class="flag"><a class="nav-link mx-2" href="#"><svg width="24" height="24"
                                         viewBox="0 0 64 64">
                                         <g transform="translate(64 0) scale(-1 1)">
                                             <path fill="#2a5f9e"
@@ -77,6 +79,8 @@
 
 
 
+
+
                             <li class="language"> <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg"
                                         width="20" height="21" viewBox="0 0 20 21" fill="none">
                                         <g clip-path="url(#clip0_2103_2220)">
@@ -96,14 +100,14 @@
 
                             <li class="search"><a class="nav-link" href="#"><svg width="24" height="24"
                                         viewBox="0 0 24 24">
-                                        <path fill="currentColor"
+                                        <path fill="white"
                                             d="M20.031 20.79c.46.46 1.17-.25.71-.7l-3.75-3.76a7.904 7.904 0 0 0 2.04-5.31c0-4.39-3.57-7.96-7.96-7.96s-7.96 3.57-7.96 7.96c0 4.39 3.57 7.96 7.96 7.96c1.98 0 3.81-.73 5.21-1.94l3.75 3.75zM4.11 11.02c0-3.84 3.13-6.96 6.96-6.96c3.84 0 6.96 3.12 6.96 6.96s-3.12 6.96-6.96 6.96c-3.83 0-6.96-3.12-6.96-6.96z" />
                                     </svg></a></a></li>
 
-                            <button class="navbar-toggler d-xl-none d-flex border-0" type="button"
+
+                            <button class="navbar-toggler d-flex d-xl-none d-md-none border-0 shadow-none" type="button"
                                 data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-                                aria-controls="offcanvasNavbar" aria-label="Toggle navigation" width="24px"
-                                height="24px">
+                                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none">
                                     <path fill-rule="evenodd" clip-rule="evenodd"
@@ -115,47 +119,52 @@
 
 
 
+
+
                         </ul>
 
                     </div>
 
 
 
-
                     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
                         aria-labelledby="offcanvasNavbarLabel">
                         <div class="offcanvas-header">
-                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
-                                aria-label="Close"></button>
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Yallabook</h5>
+                            <button type="button" class="btn-close btn-close-black shadow-none"
+                                data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div>
                         <div class="offcanvas-body">
                             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Packages</a>
+                                    <a class="nav-link active" aria-current="page" href="index.html">Homepage</a>
                                 </li>
-                                <li class="nav-item ">
-                                    <a class="nav-link" href="Blog.html">Yalla guide</a>
+
+
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="package.html">package</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="Blog.html">Blog</a>
                                 </li>
 
                                 <li class="nav-item">
-                                    <a class="nav-link" href="About.html">About us</a>
-
+                                    <a class="nav-link active" href="About.html">About us</a>
                                 </li>
 
 
-                            </ul>
-
                         </div>
                     </div>
-                </div>
             </nav>
+
+
+
 
             <div class="container px-xl-0">
 
-                <div class="hero-text text-center">
+                <div class="hero-text">
 
-                    <h1>Explore unforgettable <br> places around the world</h1>
+                    <h1>Explore unforgettable places around the world</h1>
 
                     <p> Take a break from the stress of everyday life, plan trips and explore your favorite
                         destinations</p>
@@ -178,7 +187,7 @@
 
             <div class="container px-xl-0 ">
                 <div class="row px-0">
-                    <div class="col-xl-4 col-12 wallet-1">
+                    <div class="col-xl-4 col-12 col-md-4 wallet-1">
 
                         <div class="wallet d-flex px-0">
                             <div class="img-sec-2">
@@ -189,14 +198,14 @@
 
                                 <h5>Affordable price</h5>
 
-                                <p>We have affordable offers for <br> you</p>
+                                <p>We have affordable offers for you</p>
                             </div>
 
                         </div>
                     </div>
 
 
-                    <div class="col-xl-4 col-12 wallet-2">
+                    <div class="col-xl-4 col-12 col-md-4 wallet-2">
                         <div class="wallet d-flex">
                             <div class="img-sec-2">
                                 <img src="image.yalla/Group.svg" alt="">
@@ -212,7 +221,7 @@
 
 
 
-                    <div class="col-xl-4 col-12 wallet-3">
+                    <div class="col-xl-4 col-12 col-md-4 wallet-3">
                         <div class=" wallet d-flex">
 
                             <div class="img-sec-2">
@@ -221,7 +230,7 @@
 
                             <div class="wallet-text">
                                 <h5>Easy booking</h5>
-                                <p>We provide convenience in <br> making orders</p>
+                                <p>We provide convenience in making orders</p>
                             </div>
 
                         </div>
@@ -237,7 +246,7 @@
 
         <section class="sec-3">
 
-            <div class="container px-xl-0">
+            <div class="container px-xl-0 px-md-0">
 
                 <div>
                     <h2>Popular destination</h2>
@@ -246,14 +255,15 @@
                 <div class="d-flex text-sec-3">
                     <p>Discover today's popular travel destinations and start your journey now </p>
 
-                    <button type="button" class="btn bg-danger text-white d-xl-flex d-none">Explore more</button>
+                    <button type="button" class="btn bg-danger text-white d-xl-flex d-md-flex d-none">Explore
+                        more</button>
 
                 </div>
 
 
 
                 <div class="row px-0">
-                    <div class="col-xl-4 col-12 reel-1 px-0 reel">
+                    <div class="col-xl-4 col-12 col-md-4 reel-1 px-0 reel">
 
                         <a href="#">
                             <div class="text-reel">
@@ -266,7 +276,7 @@
 
                     </div>
 
-                    <div class="col-xl-4 col-12 reel-2 px-0 reel my-4 my-xl-0">
+                    <div class="col-xl-4 col-12 col-md-4 reel-2 px-0 reel my-4 my-xl-0 my-md-0">
 
                         <a href="#">
                             <div class="text-reel">
@@ -277,7 +287,7 @@
                         </a>
                     </div>
 
-                    <div class="col-xl-4 col-12 reel-3 px-0 reel">
+                    <div class="col-xl-4 col-12 col-md-4 reel-3 px-0 reel">
                         <a href="#">
                             <div class="text-reel">
                                 <p>Destination name</p>
@@ -292,7 +302,7 @@
 
 
                     <div class="btn-sec-3 my-xl-0">
-                        <button type="button" class="btn bg-danger text-white d-flex d-xl-none">Explore
+                        <button type="button" class="btn bg-danger text-white d-flex d-md-none d-xl-none">Explore
                             more</button>
                     </div>
 
@@ -303,7 +313,7 @@
 
         <section class="sec-4 text-center">
 
-            <div class="container px-xl-0">
+            <div class="container px-xl-0 px-md-0">
 
                 <div class="text-sec-4">
 
@@ -313,7 +323,7 @@
 
                     <div class="row px-0 text-center">
 
-                        <div class="col-12 col-xl-4">
+                        <div class="col-12 col-xl-4 col-md-4">
 
                             <img src="image.yalla/airplane.png" alt="#">
 
@@ -327,7 +337,7 @@
 
                         </div>
 
-                        <div class="col-12 col-xl-4 my-xl-0 visa">
+                        <div class="col-12 col-xl-4 col-md-4 my-xl-0 my-md-0 visa">
 
                             <img src="image.yalla/visa.png" alt="#">
 
@@ -342,7 +352,7 @@
 
                         </div>
 
-                        <div class="col-12 col-xl-4">
+                        <div class="col-12 col-xl-4 col-md-4">
 
                             <img src="image.yalla/shield.png" alt="#">
 
@@ -370,7 +380,7 @@
 
         <section class="sec-5">
 
-            <div class="container px-xl-0">
+            <div class="container px-xl-0 px-md-0">
 
                 <div class="text-sec-5 text-center px-0">
 
@@ -381,10 +391,10 @@
 
                 <div class="row px-0">
 
-                    <div class="col-xl-4 col-12 reel-4 reel-sec-5 px-0">
+                    <div class="col-xl-4 col-12 col-md-4 reel-4 reel-sec-5 px-0">
 
                         <div class="text-reel-5">
-                            <p>Choosing a Travel Backpack: <br>
+                            <p>Choosing a Travel Backpack:
                                 A Comprehensive Guide! </p>
 
                         </div>
@@ -392,20 +402,20 @@
                     </div>
 
 
-                    <div class="col-xl-4 col-12 reel-5 reel-sec-5 my-xl-0 my-4 px-0">
+                    <div class="col-xl-4 col-12 col-md-4 reel-5 reel-sec-5 my-xl-0 my-4 px-0 my-md-0">
 
                         <div class="text-reel-5">
-                            <p> Bucket List Travels – 52 <br> Places To Visit In Your Life...</p>
+                            <p> Bucket List Travels – 52 Places To Visit In Your Life...</p>
 
                         </div>
 
                     </div>
 
 
-                    <div class="col-xl-4 col-12 reel-6 reel-sec-5 px-0">
+                    <div class="col-xl-4 col-12 col-md-4 reel-6 reel-sec-5 px-0">
 
                         <div class="text-reel-5">
-                            <p>How to Travel FOR FREE: No <br> Money, No Problems!</p>
+                            <p>How to Travel FOR FREE: No Money, No Problems!</p>
 
                         </div>
 
@@ -462,7 +472,7 @@
 
         <section class="sec-7">
 
-            <div class="container px-xl-0">
+            <div class="container px-xl-0 px-md-0">
 
                 <div class="text-sec-7">
 
@@ -473,7 +483,7 @@
 
 
                 <div class="row px-0">
-                    <div class="col-xl-4 col-12">
+                    <div class="col-xl-4 col-12 col-md-4 px-0">
                         <div class="card px-0">
 
                             <div class="star p-0">
@@ -501,7 +511,7 @@
 
 
 
-                    <div class="col-xl-4 col-12 my-xl-0 my-4">
+                    <div class="col-xl-4 col-12 col-md-4 my-xl-0 my-4 my-md-0 px-0">
                         <div class="card px-0">
 
                             <span class="star p-0">
@@ -531,7 +541,7 @@
 
 
 
-                    <div class="col-xl-4 col-12">
+                    <div class="col-xl-4 col-12 col-md-4 px-0">
                         <div class="card px-0">
 
                             <span class="star p-0">
@@ -577,14 +587,14 @@
 
 
 
-                    <div class="col-xl-4 col-12 sec-8-user">
+                    <div class="col-xl-4 col-12 col-md-4 sec-8-user">
 
                         <div class="user">
                             <img src="image.yalla/users.png" alt="">
 
                             <div class="text-user">
                                 <h6>12M Users</h6>
-                                <p>We have 12 million satisfied <br>
+                                <p>We have 12 million satisfied
                                     clients worldwide</p>
 
                             </div>
@@ -593,14 +603,14 @@
                     </div>
 
 
-                    <div class="col-xl-4 col-12 sec-8-user">
+                    <div class="col-xl-4 col-12 col-md-4 sec-8-user">
 
                         <div class="user">
                             <img src="image.yalla/rating.png" alt="">
 
                             <div class="text-user">
                                 <h6>4.8/5 Rating</h6>
-                                <p>Our app got very satisfactory reviews<br>across multiple platforms</p>
+                                <p>Our app got very satisfactory reviews across multiple platforms</p>
 
                             </div>
                         </div>
@@ -608,14 +618,14 @@
                     </div>
 
 
-                    <div class="col-xl-4 col-12 sec-8-user">
+                    <div class="col-xl-4 col-12 col-md-4 sec-8-user">
 
                         <div class="user">
                             <img src="image.yalla/cities.png" alt="">
 
                             <div class="text-user city">
                                 <h6>200K Cities</h6>
-                                <p>Enjoy the convenience of accessing our <br> website and applications anywhere</p>
+                                <p>Enjoy the convenience of accessing our website and applications anywhere</p>
 
                             </div>
                         </div>

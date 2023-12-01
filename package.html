@@ -12,7 +12,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="style.css">
+
     <link rel="stylesheet" href="package.css">
     <title>package</title>
 </head>
@@ -23,31 +23,32 @@
 
         <section class="main-1">
 
-            <nav class="navbar">
-                <div class="container-fluid px-xl-0">
+            <nav class="navbar p-0">
+                <div class="container-fluid p-0">
 
-                    <a class="navbar-brand" href="index.html"><img src="image.yalla/Group 1000004515.svg"
-                            alt="">allabook</a>
+                    <a class="navbar-brand" href="index.html">
 
+                        <span>
+                            <img src="image.yalla/Group 1000004515.svg" alt="">allabook
+                        </span>
+                    </a>
 
-                    <div class="nav-between d-xl-flex d-none">
+                    <div class="nav-between d-xl-flex d-none d-md-flex">
                         <ul class="d-flex text-white">
-                            <li><a class="nav-link link-1" href="">Packages</a></li>
-                            <li> <a class="nav-link link-2" href="Blog.html">Yalla guide</a></li>
-                            <li> <a class="nav-link link-3" href="#">About us</a></li>
+                            <li><a class="nav-link link-1" href="package.html">Packages</a></li>
+                            <li> <a class="nav-link link-2 " href="Blog.html">Yalla guide</a></li>
+                            <li> <a class="nav-link link-3" href="About.html">About us</a></li>
 
                         </ul>
                     </div>
 
-                    <div class="nav-end">
+                    <div class="nav-end d-flex">
 
-                        <ul class="d-flex">
+                        <ul class="d-flex px-0">
 
-                            <li><a class=" me-1 nav-link text-white link-4 d-xl-flex d-none
-                                " href="#">countries</a></li>
+                            <li><a href="#" class="d-xl-flex d-none d-md-flex text-white nav-link">Countries</a></li>
 
-
-                            <li class="flag"><a class="nav-link" href="#"><svg width="24" height="24"
+                            <li class="flag"><a class="nav-link mx-2" href="#"><svg width="24" height="24"
                                         viewBox="0 0 64 64">
                                         <g transform="translate(64 0) scale(-1 1)">
                                             <path fill="#2a5f9e"
@@ -75,6 +76,8 @@
 
 
 
+
+
                             <li class="language"> <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg"
                                         width="20" height="21" viewBox="0 0 20 21" fill="none">
                                         <g clip-path="url(#clip0_2103_2220)">
@@ -94,14 +97,14 @@
 
                             <li class="search"><a class="nav-link" href="#"><svg width="24" height="24"
                                         viewBox="0 0 24 24">
-                                        <path fill="currentColor"
+                                        <path fill="white"
                                             d="M20.031 20.79c.46.46 1.17-.25.71-.7l-3.75-3.76a7.904 7.904 0 0 0 2.04-5.31c0-4.39-3.57-7.96-7.96-7.96s-7.96 3.57-7.96 7.96c0 4.39 3.57 7.96 7.96 7.96c1.98 0 3.81-.73 5.21-1.94l3.75 3.75zM4.11 11.02c0-3.84 3.13-6.96 6.96-6.96c3.84 0 6.96 3.12 6.96 6.96s-3.12 6.96-6.96 6.96c-3.83 0-6.96-3.12-6.96-6.96z" />
                                     </svg></a></a></li>
 
-                            <button class="navbar-toggler d-xl-none d-flex border-0" type="button"
+
+                            <button class="navbar-toggler d-flex d-xl-none d-md-none border-0 shadow-none" type="button"
                                 data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-                                aria-controls="offcanvasNavbar" aria-label="Toggle navigation" width="24px"
-                                height="24px">
+                                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none">
                                     <path fill-rule="evenodd" clip-rule="evenodd"
@@ -112,41 +115,46 @@
 
 
 
+
+
+
                         </ul>
 
                     </div>
 
 
 
-
                     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
                         aria-labelledby="offcanvasNavbarLabel">
                         <div class="offcanvas-header">
-                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
-                                aria-label="Close"></button>
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Yallabook</h5>
+                            <button type="button" class="btn-close btn-close-black shadow-none"
+                                data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div>
                         <div class="offcanvas-body">
                             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Packages</a>
+                                    <a class="nav-link active" aria-current="page" href="index.html">Homepage</a>
                                 </li>
-                                <li class="nav-item ">
-                                    <a class="nav-link" href="#">Yalla guide</a>
+
+
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="package.html">package</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="Blog.html">Blog</a>
                                 </li>
 
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">About us</a>
-
+                                    <a class="nav-link active" href="About.html">About us</a>
                                 </li>
 
 
-                            </ul>
-
                         </div>
                     </div>
-                </div>
             </nav>
+
+
 
             <div class="container px-xl-0 hero">
 
@@ -186,35 +194,28 @@
 
                 <div class="row px-0">
 
-                    <div class="col-xl-3 col-3 travel-style reel-travel-1 px-0">
+                    <div class="col-xl-3 col-3 col-md-3 travel-style reel-travel-1 px-0">
 
                         <div class="text-travel text-center">
 
-                            Couples
+
+                            <p>
+                                Couples
+                            </p>
 
 
                         </div>
 
                     </div>
 
-                    <div class="col-xl-3 col-3 travel-style reel-travel-2 px-0">
-
-                        <div class="text-travel text-center">
-
-                            Cultural Heritage
-
-
-                        </div>
-
-                    </div>
-
-
-                    <div class="col-xl-3 col-3 travel-style reel-travel-3 px-0">
+                    <div class="col-xl-3 col-3 col-md-3 travel-style reel-travel-2 px-0">
 
                         <div class="text-travel text-center">
 
 
-                            Family
+                            <p>
+                                Cultural Heritage
+                            </p>
 
 
                         </div>
@@ -222,11 +223,27 @@
                     </div>
 
 
-                    <div class="col-xl-3 col-3 travel-style reel-travel-4 px-0">
+                    <div class="col-xl-3 col-3 col-md-3 travel-style reel-travel-3 px-0">
 
                         <div class="text-travel text-center">
 
-                            Sunseeker
+
+                            <p>
+                                Family
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-xl-3 col-3 col-md-3 travel-style reel-travel-4 px-0">
+
+                        <div class="text-travel text-center">
+
+                            <p>
+                                Sunseeker
+                            </p>
 
 
                         </div>
@@ -269,13 +286,13 @@
 
                 <div class="btn-main-3 px-0">
 
-                    <button type="button" class=" btn bg-danger text-white d-flex">popular</button>
+                    <button type="button" class=" btn bg-danger text-white d-flex ">popular</button>
                     <button type="button" class="btn-1 d-flex">popular</button>
-                    <button type="button" class="btn-1 d-xl-flex d-none ">popular</button>
-                    <button type="button" class="btn-1 d-xl-flex d-none">popular</button>
-                    <button type="button" class="btn-1 d-xl-flex d-none">popular</button>
-                    <button type="button" class="btn-1 d-xl-flex d-none">popular</button>
-                    <button type="button" class="btn-1 d-xl-flex d-none">popular</button>
+                    <button type="button" class="btn-1 d-xl-flex d-none d-md-flex ">popular</button>
+                    <button type="button" class="btn-1 d-xl-flex d-none d-md-flex">popular</button>
+                    <button type="button" class="btn-1 d-xl-flex d-none d-md-flex">popular</button>
+                    <button type="button" class="btn-1 d-xl-flex d-none d-md-flex d-md-none">popular</button>
+                    <button type="button" class="btn-1 d-xl-flex d-none d-md-flex d-md-none">popular</button>
                 </div>
 
             </div>
@@ -301,7 +318,7 @@
 
 
 
-                    <div class="col-xl-4 col-12 bali my-xl-0 my-4">
+                    <div class="col-xl-4 col-12 bali my-xl-0 my-4 my-md-0">
 
                         <div class="card">
                             <img src="image.yalla/package-reel-6.png" class="card-img-top" alt="#">
@@ -352,7 +369,8 @@
 
                     <div class="btn-main-5 d-flex">
                         <p>Destinations you can travel to now</p>
-                        <button type="button" class="btn bg-danger text-white d-xl-flex d-none">Explore more</button>
+                        <button type="button" class="btn bg-danger text-white d-xl-flex d-none d-md-flex">Explore
+                            more</button>
 
                     </div>
 
@@ -363,7 +381,7 @@
 
                 <div class="row px-0">
 
-                    <div class="col-xl-3 col-3 taj-1 taj">
+                    <div class="col-xl-3 col-3 col-md-3 taj-1 taj">
 
                         <div class="cheap-travel">
                             <h6>Bali</h6>
@@ -374,7 +392,7 @@
                     </div>
 
 
-                    <div class="col-xl-3 col-3 taj-2 taj">
+                    <div class="col-xl-3 col-3 col-md-3 taj-2 taj">
 
                         <div class="cheap-travel">
                             <h6>Bali</h6>
@@ -384,7 +402,7 @@
 
                     </div>
 
-                    <div class="col-xl-3 col-3 taj-3 taj">
+                    <div class="col-xl-3 col-3 col-md-3 taj-3 taj">
 
                         <div class="cheap-travel">
                             <h6>Bali</h6>
@@ -395,7 +413,7 @@
                     </div>
 
 
-                    <div class="col-xl-3 col-3 taj-4 taj">
+                    <div class="col-xl-3 col-3 col-md-3 taj-4 taj">
 
                         <div class="cheap-travel">
                             <h6>Bali</h6>
@@ -506,7 +524,7 @@
 
                 <div class="container px-xl-0">
                     <div class="row px-0">
-                        <div class="col-12 col-xl-3 title-yalla">
+                        <div class="col-12 col-xl-3 col-md-3 title-yalla">
                             <a class="yalla-footer p-0" href="#"><img src="image.yalla/Group 1000004515.svg"
                                     alt="">allabook</a>
                             <p class="location">128 Market St. 20193 San Fransisco California</p>
@@ -557,7 +575,7 @@
 
                             </div>
                         </div>
-                        <div class="col-12 col-xl-3 menu-1 px-xl-0">
+                        <div class="col-12 col-xl-3 col-md-3 menu-1 px-xl-0">
                             <ul class="menu-footer">
                                 <li class="m-0"><a href="">Travel creators</a></li>
                                 <li><a href="">Features</a></li>
@@ -571,7 +589,7 @@
 
                             </ul>
                         </div>
-                        <div class="col-12 col-xl-3 menu-2 px-xl-0">
+                        <div class="col-12 col-xl-3 col-md-3 menu-2 px-xl-0">
                             <ul class="menu-footer-2">
                                 <li class="m-0"> <a href="">Plan a trip</a></li>
                                 <li class=""> <a href="">Travel partner</a></li>
@@ -584,7 +602,7 @@
                             </ul>
                         </div>
 
-                        <div class="col-12 col-xl-3 text-white end-footer">
+                        <div class="col-12 col-xl-3 col-md-3 text-white end-footer">
                             <div class="email">
                                 <h6>Contact Us</h6>
                                 <p>Yallabook@gmail.com</p>
